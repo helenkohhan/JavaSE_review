@@ -13,6 +13,7 @@ package section07;
  *  	8가지: byte short int long double float char boolean
  * 
  * 		참조형 - 기본형 외 나머지 전부! 참조(주소)값을 가지고 있다.
+ * 			   값만 가지는 기본형과 다르게 값뿐만 아니라 기능도 가지고 있다.
  * 			   보통 대문자로 시작하지만 소문자도 가능하다. (클래스명)
  * 	 		   예) String 
  * 
@@ -40,12 +41,12 @@ package section07;
 
 
 public class Var01 {
-	// 전역변수
+	// 전역변수; 클래스에 선언된 변수
 	static int globalNum = 100;
-	static int gLobalNum2; // 변수 선언 초기화 하지 않음
+	static int gLobalNum2; // 변수 선언 초기화 하지 않음, 초기화하지 않아도 디폴트값이 들어감
 	
 	public static void main(String[] args) {
-		int areaNum2; 	   // 변수선언 초기화 하지 않음
+		int areaNum2; 	   // 변수선언 초기화 하지 않음; 초기화하지 않으면 컴파일 에러남
 		areaNum2=0;
 		
 		System.out.println(gLobalNum2);
@@ -53,8 +54,8 @@ public class Var01 {
 		
 	}
 	
-	public static void areaNum() {
-		// 지역변수
+	public static void areaNum() { //메서드 생성
+		// 지역변수; 메서드 안에 선언된 변수
 		int areaNum = 10;
 	}
 	

@@ -37,7 +37,7 @@ package section07;
  *  class 구조
  *  (접근제한자) class 클래스명 (extends 상속클래스) (implements 인터페이스 상속) { 		// 클래스 선언부
  *  	
- *  	초기화=> (생성자)
+ *  	초기화=> (생성자) '생성자의 목적은 초기화'
  *  
  *  	속성 => 변수(멤버변수, 멤버필드)
  *  	기능 => 메서드(멤버메서드)
@@ -75,7 +75,7 @@ public class OOP01 {
 		System.out.println("car2 바퀴 개수: " + car2.wheel);
 		
 		car1.drive(); // drive() 메서드 호출
-		
+		car2.parking();
 	}
 
 }

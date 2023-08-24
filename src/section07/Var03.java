@@ -3,6 +3,7 @@ package section07;
 public class Var03 {
 	
 	// 참조형, 전역변수, 정적(static)변수가 아닌 동적변수
+	// 참고로 static 변수는 전역변수에만 가능하다.
 	Car car1= new Car();
 	
 	
