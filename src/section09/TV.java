@@ -25,11 +25,11 @@ public class TV {
 		this.brand= brand;
 	}
 	
-	public TV(String...option) {
+	public TV(String[]options) {
 		this(); // 자기자신 생성자 호출
 		getInfo();
 		System.out.println("추가 옵션 목록");
-		for(String option : options) {
+	    for(String option : options) {
 			System.out.println("option: " + option);
 		}
 	}

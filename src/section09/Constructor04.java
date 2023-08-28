@@ -6,9 +6,11 @@ public class Constructor04 {
 		System.out.println("Constructor04() static 초기화 블럭 입니다.");
 	}
 	
+	
 	{
 		System.out.println("Constructor04() 초기화 블럭 입니다.");
 	}
+	
 	
 	
 	public Constructor04() {

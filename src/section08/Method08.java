@@ -15,12 +15,13 @@ public class Method08 {
 	
 	
 	// 인자 배열, 리턴 배열
-	public static double[] summary(int...values) {
+	// 'public static double[] summary(int...values)' 가능
+	public static double[] summary(int[]values) {
 		
-		// result[0]: 합계, rsult[1]: 평균
+		// result[0]: 합계, result[1]: 평균
 		double[] result = new double[2];
 		
-		int sum = 0;
+		int sum = 0;	//합계 값을 구할 변수
 		for(int value :  values) {
 			sum +=value;
 		

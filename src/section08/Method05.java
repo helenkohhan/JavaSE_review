@@ -10,25 +10,23 @@ public class Method05 {
 	}
 
 	// 5. 인자 존재 - 배열타입 리턴 X
-	// String[]  == String...
+	// 배열 String[]  == String... 로 표기해도 됨
+	// public static void printPokemon(String...pokemons)
 	public static void printPokemon(String[] pokemons) {
-		
+   		
 		for(int i = 0; i < pokemons.length; i++) {
 			String pokemon = pokemons[i];
 			System.out.println(pokemon);
 		}
 
-	// for문으로 바꾸기
-//	for(int i =0; i<pokemons.length; i++) {
-//		String pokemon = pokemons[i];
+//	* for문으로 바꾸기
+//	for(String pokemon : pokemons) {
 //		System.out.println(pokemon);
 //	}
-//	}
-	
-	
-	
 	}
-	}
+	
+}
+	
 	
 
 	

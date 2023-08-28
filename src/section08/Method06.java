@@ -9,7 +9,7 @@ public class Method06 {
 		
 	}
 
-	// 6. 인자 X 리턴 o 	- 메세드 호출시 값 반환
+	// 6. 인자 X 리턴 o 	- 메서드 호출시 값 반환
     public static String getPokemon() {
     	String pokemon = "피카츄";
     	

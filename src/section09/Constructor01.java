@@ -14,6 +14,8 @@ public class Constructor01 {
 		
 		book1.getInfo();
 		
+		
+		// 값 수정하기
 		book1.title = "이방인";
 		book1.price = 9000;
 		book1.totalPage = 280;

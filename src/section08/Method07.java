@@ -4,6 +4,8 @@ public class Method07 {
 	public static void main(String[] args) {
 	
 		int result = add(24, 55);
+	  //int result = add(24, 55, 77); 로 적으면 
+	  //밑에 있는 오버로딩메서드로	 계산되어 결과값 나옴.
 		System.out.println("result: " + result);
 		
 		

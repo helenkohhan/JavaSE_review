@@ -1,6 +1,6 @@
 package section10;
 
-import section10.access1.Bicycle;
+import section10.access1.Bicycle; 
 import section10.access1.MountainBike;
 
 /*
@@ -25,6 +25,7 @@ import section10.access1.MountainBike;
  * 
  *	*****오버라이딩(Overriding)***** 
  * 	상속받은 메서드를 하위클래스에서 재정의하는것을 말한다.
+ *  즉, 부모객체에서 이미 정의되어 있는것들을 자식객체에서 재정의하는것. 
  * 
  * 	
  * 	어노테이션
