@@ -26,7 +26,7 @@ public class Variable05 {
 	public static void main(String[] args) {
 		float f = 0.0f;
 		double d= 0.0;
-		BigDecimal bd = new BigDecimal(0.0);
+		BigDecimal bd = new BigDecimal(0.0);	
 		
 		// for 반복문
 		for(int i = 0; i < 100; i++) { // 0, 1, 2, ... 99까지 true로 실행됨) 
