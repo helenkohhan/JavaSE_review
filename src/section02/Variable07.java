@@ -21,6 +21,7 @@ public class Variable07 {
 		
 		float iFloat = 10.1f;
 		double iDouble = iFloat;	//자동으로 형변환
+		System.out.println("iDouble: " + iDouble);
 		
 		// 다운캐스팅 - overflow 주의!
 		int iInt2 = 130;
