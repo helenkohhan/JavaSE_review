@@ -24,8 +24,8 @@ public class OuterClass01 {
 	}
 
 	
-	static class InnerClass {
-		public static void info() {
+	static class InnerClass {							// static이기에 객체생성이 필요X
+		public static void info() {						// static은 객체생성이 필요없다
 			System.out.println("static 내부클래스 입니다."); 
 			
 		}

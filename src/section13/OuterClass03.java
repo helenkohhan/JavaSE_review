@@ -25,7 +25,7 @@ public class OuterClass03 {
 
 	public class InnerClass {
 		public void info() {
-			System.out.println("인스턴스내부클래스 안에 일반메서드 입니다.");
+			System.out.println("인스턴스내부클래스(=일반내부클래스) 안에 일반메서드 입니다.");
 
 			
 		}

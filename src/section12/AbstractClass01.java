@@ -1,6 +1,7 @@
 package section12;
 
 import section12.access1.Animal;
+
 import section12.access1.Dog;
 import section12.access1.Pig;
 
@@ -20,6 +21,7 @@ public class AbstractClass01 {
 		Pig pig = new Pig();
 		pig.cry();
 		
+		// 다형성
 		Animal animal = new Pig();
 		animal.cry();
 		

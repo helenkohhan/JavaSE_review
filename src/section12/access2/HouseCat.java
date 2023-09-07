@@ -9,7 +9,7 @@ public class HouseCat implements Cat, Playable {
 
 	@Override
 	public void sleep() {
-		System.out.println("밤에 잠을 안자요! 낮에 자고 싶을떄 자요!");
+		System.out.println("밤에 잠을 안자요! 낮에 자고 싶을때 자요!");
 	}
 
 	@Override
