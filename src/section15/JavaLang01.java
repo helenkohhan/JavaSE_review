@@ -14,7 +14,7 @@ import section15.access1.SoccerTeam;
  * 
  * 	- equals() 메서드: 두 객체가 동일한 객체면 true, 동일하지 않으면 false 반환
  
- * 	- hashcode() 메서드: 객체의 메모리 번지를 이요, 해시코드를 만들어 리턴
+ * 	- hashcode() 메서드: 객체의 메모리 번지를 이용, 해시코드를 만들어 리턴
  * 
  * 	- toString() 메서드: 객체의 문자 정보를 리턴, 즉 객체를 문자열로 리턴
  * 
@@ -40,6 +40,8 @@ public class JavaLang01 {
 		}
 		
 		// 주소값을 찍고 싶을때 System.identityHashCode을 사용해라;더 정확한 경우가 많다.
+		// 위에서 우리가 toString을 오버라이딩 한 것처럼,
+		// 어떤 경우에서는, hashCode가 오버라이딩 되어 있는 경우도 있기 때문이다.
 		System.out.println(System.identityHashCode(sTeam1));
 		System.out.println(System.identityHashCode(sTeam2));
 		
