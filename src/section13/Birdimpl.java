@@ -7,7 +7,7 @@ public class Birdimpl implements Bird {
 	
 	@Override
 	public void sing() {
-		System.out.println("노래르 해요~");
+		System.out.println("노래를 해요~");
 	}
 	
 	@Override

@@ -25,6 +25,8 @@ public class ExceptionClass05 {
 
 		
 // [2번째 방법] throws 예외 던지기(미루기)
+//			  ; 던지는 대상이 MAIN, 던짐을 받는 대상도 MAIN 이란, 
+//				JVM이 알아서 해결하라는 의미이다.		
 		np.printNumber();
 		
 // throw 키워드 강제로 Exception 발생시키기		

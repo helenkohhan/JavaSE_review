@@ -3,8 +3,8 @@ package section14;
 public class ExceptionClass02 {
 	public static void main(String[] args) {
 		
-		String str =null;	// 객체 생성X, 참조변수 없음
-		
+//		String str =null;	// 'null'이라는 것은 객체 생성이 되지 않은것, 참조변수 없음
+		String str = "ABC";		
 		int num1 = 10;
 		int num2 = 0;
 		int result = 0;

@@ -9,7 +9,7 @@ public class OuterClass02 {
 		inner.info();
 	}
 
-	static class InnerClass{
+	static class InnerClass{		//클래스는 static이지만, 메서드는 static이 아니므로 내부클래스에대한 객체생성이필요하다.
 		public void info() {
 			System.out.println("정적내부클래스의 동적일반메서드");
 		}

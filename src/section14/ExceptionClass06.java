@@ -2,6 +2,7 @@ package section14;
 
 import java.util.Scanner;
 
+
 import section14.access2.InputErrorException;
 
 public class ExceptionClass06 {
@@ -17,8 +18,8 @@ public class ExceptionClass06 {
 			int age = scan.nextInt();
 			
 			if(age < 0) {
-				// 0살 미만인 경우 입력 실패
-				throw new InputErrorException("입력이 잘못되었습니다.");
+				// 0살 미만인 경우 입력 실패								// 강제로 예외를 발생시키는것
+				throw new InputErrorException("입력이 잘못되었습니다."); // -1을 입력하면 예외발생함. > catch문으로 이동
 			}
 			
 			if(age>19) {

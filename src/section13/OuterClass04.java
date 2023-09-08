@@ -12,7 +12,7 @@ public class OuterClass04 {
 	
 	private int speed=10;
 	
-	public void getUinit(String unitName) {
+	public void getUnit(String unitName) {
 		
 		class Unit{
 			public void move() {
@@ -26,7 +26,7 @@ public class OuterClass04 {
 		
 	public static void main(String[] args){
 		OuterClass04 outer = new OuterClass04();
-		outer.getUinit("마린");
+		outer.getUnit("마린");
 	
 		
 	}
