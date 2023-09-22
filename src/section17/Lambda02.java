@@ -1,5 +1,6 @@
 package section17;
 
+import java.util.Arrays;
 import java.util.List;
 
 /*
@@ -14,7 +15,18 @@ import java.util.List;
 public class Lambda02 {
 	public static void main(String[] args) {
 		
+		// 불변리스트 객체 - 값 변경 불가
 		List<String> names=List.of("Apple","Bat","Cat","Dog");
+//		names.add("AABB");  	불변리스트라서 추가 X;오류발생
+
+		
+//		위의 식을, 아래와 같이 적을 수 있다.
+//		단, Arrays.asList는 배열을 List화 시킨 것이기 때문에 배열성을 띄고있다. 
+// 		따라서 크기 변경이 불가하다. 추가, 삭제, 길이 변경불가
+//		하지만, 데이터의 수정은 가능하다.		
+//		List<String> names = Arrays.asList("Apple","Bat","Cat","Dog");	
+//		names.set(1, "Batman");
+		
 		
 		printBasic(names);
 		printWithFP(names);

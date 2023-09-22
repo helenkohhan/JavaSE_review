@@ -34,6 +34,12 @@ public class Lambda01 {
 //		MyLambdaFunction mlf2 = (int a, int b) -> {return a > b ? a : b;};
 		System.out.println(mlf2.max(7, 9));
 		
+		// 3. 람다식을 이용한 익명함수
+		MyLambdaFunction2 mlf3 = (int a, int b, int c) -> {
+			System.out.println(a+b+c);
+		};
+		mlf3.sum(7, 9, 7);
+		
 		
 		
 	}
@@ -44,7 +50,15 @@ public class Lambda01 {
 @FunctionalInterface   // 생략가능, 람다에서 쓸 인터페이스다라는 것을 annotation으로 표기해준 것
 interface MyLambdaFunction{
 	int max(int a, int b);
+	
 }
+
+@FunctionalInterface   
+interface MyLambdaFunction2{
+	void sum(int a, int b, int c);
+}
+
+
 
 
 
