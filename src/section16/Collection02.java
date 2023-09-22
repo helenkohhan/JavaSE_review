@@ -37,6 +37,7 @@ public class Collection02 {
 		// 저장된 데이터 특정 인덱스 값으로 얻어오기
 		String pokemon = list.get(6);	// 배열로 나타낸다면, array[6]
 		System.out.println("list 6 인덱스 값: " + pokemon);
+		System.out.println("list 6 인덱스 값: " + list.get(6));
 		
 		
 		// 지정된 데이터 인덱스 값으로 삭제

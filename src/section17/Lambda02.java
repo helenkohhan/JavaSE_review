@@ -16,7 +16,7 @@ public class Lambda02 {
 		
 		List<String> names=List.of("Apple","Bat","Cat","Dog");
 		
-//		printBasic(names);
+		printBasic(names);
 		printWithFP(names);
 		
 	}

@@ -7,6 +7,14 @@ package section16;
  * 2	짱구		0102222222	떡잎마을
  * 3	둘리 		0103333333	쌍문동
  * 
+ * id: 1 name: 홍길동 mobile: 01011111111 addr: 서울특별시
+ * id: 2 name: 짱구 mobile: 01022222222 addr: 떡잎마을
+ * id: 3 name: 둘리 mobile: 01033333333 addr: 쌍문동
+ * 
+ * >> id, name, mobile, addr = key값
+ * 	  
+ * 
+ * 
  * 
  */
 

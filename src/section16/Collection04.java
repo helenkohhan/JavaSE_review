@@ -38,6 +38,8 @@ public class Collection04 {
 		
 		System.out.println("===============================");
 		
+		// 전체 데이터를 가져오는 방법
+		// [1] 향상된 for문사용
 		Set<String> keys = map.keySet();
 		for(String key: keys) {
 			System.out.print("name: " + key);
@@ -45,7 +47,7 @@ public class Collection04 {
 		}
 		
 		System.out.println("===============================");
-		
+		// [2] Iterator 반복자 사용
 		Set<String> keys2 = map.keySet();
 		Iterator<String> it = keys.iterator();
 		
