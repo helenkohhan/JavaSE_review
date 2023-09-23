@@ -42,6 +42,7 @@ public class IO04 {
 			int readByteCnt = 0;
 			byte[] b = new byte[1024];
 			
+			// 읽은 값이 없으면 -1이 나옴. 즉, -1이 안나올때까지 반복하겠다!
 			while((readByteCnt = fis.read(b)) != -1) {
 				fos.write(b, 0, readByteCnt);
 			}
